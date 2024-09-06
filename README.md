@@ -34,7 +34,7 @@ To get a local copy up and running follow these simple steps:
    ```
    npm run dev
    ```
-5. Once the server is running, you can access the application at below link.
+5. Once the server is running, you can access the application using the below link.
    ```
    http://localhost:5173/
    ```
