@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import Widgets from "./widgets"
+import Widgets from "./Widgets"
 
 function App() {
 
