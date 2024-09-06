@@ -34,6 +34,10 @@ To get a local copy up and running follow these simple steps:
    ```
    npm run dev
    ```
+5. Once the server is running, you can access the application at below link.
+   ```
+   http://localhost:5173/
+   ```
 
 ## 🛠️ Technologies Used
 - ⚛️ ReactJS: A JavaScript library for building user interfaces.
