@@ -1,8 +1,32 @@
-# React + Vite
+# Lunacal Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Assignemt for Frontend Developer internship.
 
-Currently, two official plugins are available:
+## Table of Contents
+- [🖼️ Demo]()
+- [⚙️ Installation]()
+- [🛠️ Technologies Used]()
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🖼️ Demo
+![image](https://github.com/user-attachments/assets/5aa736db-0c93-4cdc-9c24-ce503db858d5)
+You can view a live demo of this assignment [here]().
+
+## ⚙️ Installation
+To get a local copy up and running follow these simple steps:
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/sohelkh1211/Lunaccal-Assignment.git
+   ```
+2. Navigate to the project directory:
+   ```
+   cd lunacal-assignment
+   ```
+3. Install the dependencies:
+   ```
+   npm install --legacy-peer-deps
+   ```
+4. Start the development server:
+   ```
+   npm run dev
+   ```
