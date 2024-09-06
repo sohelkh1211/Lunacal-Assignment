@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(180deg, #373E44 0%, #191B1F 6000%);
+  font-family: "Merriweather", system-ui;
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.widget {
+  box-shadow: 5.67px 5.67px 3.78px 0px #00000066;
+}
+
+.btn {
+  box-shadow: 4.49px 7.87px 25.47px 10.43px #0A0A0A;
+  /* box-shadow: -8.43px -16.87px 50.6px -16.87px #485B71; */
+}
+
+.custom-upload-button .p-button {
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 7px; /* Adjusted padding for better alignment */
+  padding-bottom: 7px;
+  margin-top: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #FFFFFF08;
+  border-radius: 50px; /* Rounded button */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 
+      0px 3.26px 3.26px 0px #FFFFFF26 inset, 
+      0px 0px 48.91px 0px #FFFFFF0D inset, 
+      9px 10px 7.1px 0px #00000066, 
+      -0.5px -0.5px 6.9px 0px #FFFFFF40;
+  transition: all 0.3s ease;
+}
+
+@media (min-width: 768px ) and (max-width: 1023px) {
+  .custom-upload-button .p-button {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 4px; /* Adjusted padding for better alignment */
+    padding-bottom: 4px;
+    font-size: 8px;
+  }
+
+  .custom-upload-button .p-fileupload-choose::before {
+    content: '+';
+    font-size: 10px;
+    margin-right: 8px;
+    display: inline-block;
+  }
+
+  .custom-upload-button .p-button:hover {
+    box-shadow: 
+        0px 3.26px 3.26px 0px #FFFFFF26 inset, 
+        0px 0px 48.91px 0px #FFFFFF3D inset, 
+        9px 10px 7.1px 0px #00000099, 
+        -0.5px -0.5px 6.9px 0px #FFFFFF60;
+  }
+}
+
+.custom-upload-button .p-button:hover {
+  box-shadow: 
+      0px 3.26px 3.26px 0px #FFFFFF26 inset, 
+      0px 0px 48.91px 0px #FFFFFF3D inset, 
+      9px 10px 7.1px 0px #00000099, 
+      -0.5px -0.5px 6.9px 0px #FFFFFF60;
+}
+
+.custom-upload-button .p-button .p-fileupload-choose {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.custom-upload-button .p-fileupload-choose::before {
+  content: '+';
+  font-size: 14px;
+  margin-right: 8px;
+  display: inline-block;
+}
+
+.p-icon {
+  display: none;
+}
+
+.arrow {
+  background: linear-gradient(139.14deg, #303439 12.4%, #161718 94.96%);
+  box-shadow: 4px 5px 30px 5px #101213;
+  box-shadow: -5px -3px 30px -10px #96BEE7;
+}
+
+.arrow:hover {
+  background: rgb(28, 28, 28);
+}
+
+.image-container {
+  scrollbar-width: none;
+}
+
+.image-container::-webkit-scrollbar {
+  display: none;
+}
+
+.line {
+  background: linear-gradient(180deg, rgba(40, 40, 40, 0.1) 0%, rgba(248, 248, 248, 0.1) 100%),
+  linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
+  box-shadow: 0px 4px 4px 0px #00000054;
+}
