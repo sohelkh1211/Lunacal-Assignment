@@ -11,6 +11,7 @@ import { FileUpload } from 'primereact/fileupload';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import { createTheme, ThemeProvider } from '@mui/material'; // To config MUI icons breakpoints
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const Widgets = () => {
   const [selected_tab, setSelected_tab] = useState('About Me');
@@ -111,9 +112,10 @@ const Widgets = () => {
             <img src={dots} className='lg:w-[20px] md:md:w-[16px] self-center' />
             <div ref={slider} className='flex lg:gap-x-3 md:gap-x-2 image-container'>
               {displayImages.map((image, index) => (
-                <img
+                <LazyLoadImage
                   key={index}
                   src={image}
+                  effect="black-and-white"
                   className='flex-grow min-w-0 lg:h-[145px] md:h-[100px] opacity-50 hover:opacity-100 hover:scale-[105%] hover:-rotate-[4deg] transition-transform duration-300 ease-in-out rounded-xl bg-cover object-cover'
                 />
               ))}
