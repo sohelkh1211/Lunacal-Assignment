@@ -9,7 +9,7 @@ Assignemt for Frontend Developer internship.
 
 ## 🖼️ Demo
 ![image](https://github.com/user-attachments/assets/5aa736db-0c93-4cdc-9c24-ce503db858d5)
-You can view a live demo of this assignment [here]().
+You can view a live demo of this assignment [here](https://mohammed-sohel.netlify.app/).
 
 ## ⚙️ Installation
 To get a local copy up and running follow these simple steps:
