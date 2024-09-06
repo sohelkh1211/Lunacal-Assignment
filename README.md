@@ -3,9 +3,9 @@
 Assignemt for Frontend Developer internship.
 
 ## Table of Contents
-- [🖼️ Demo](https://github.com/sohelkh1211/Lunacal-Assignment/blob/main/README.md#%EF%B8%8F-demo)
+- [🖼️ Demo](#%EF%B8%8F-demo)
 - [⚙️ Installation](#%EF%B8%8F-installation)
-- [🛠️ Technologies Used]()
+- [🛠️ Technologies Used](#%EF%B8%8F-technologies-used)
 
 ## 🖼️ Demo
 ![image](https://github.com/user-attachments/assets/5aa736db-0c93-4cdc-9c24-ce503db858d5)
