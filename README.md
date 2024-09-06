@@ -42,3 +42,5 @@ To get a local copy up and running follow these simple steps:
 ## 🛠️ Technologies Used
 - ⚛️ ReactJS: A JavaScript library for building user interfaces.
 - ⚡ ViteJS: Next Generation Frontend Tooling.
+- 🎨 Prime React, Material UI: An open-source React component library
+- 🎨 Tailwind CSS - A utility-first CSS framework for styling
