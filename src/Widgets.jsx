@@ -12,6 +12,7 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import { createTheme, ThemeProvider } from '@mui/material'; // To config MUI icons breakpoints
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import toast from 'react-hot-toast';
 
 const Widgets = () => {
   const [selected_tab, setSelected_tab] = useState('About Me');
@@ -31,13 +32,10 @@ const Widgets = () => {
     }
   });
 
-  const onUpload = () => {
-    toast.current.show({ severity: 'info', summary: 'Success', detail: 'File Uploaded' });
-  };
-
   const onSelect = (e) => {
     const newImage = e.files[0].objectURL;
     setImages(prevImages => [...prevImages, newImage]);
+    toast.success('File Uploaded');
   };
 
 
@@ -50,8 +48,6 @@ const Widgets = () => {
       setIndex(index + 1);
     }
   }
-  console.log("After :- ", index);
-  // console.log(slider);
 
   return (
     <div className="flex flex-row gap-x-10 mt-6 mx-20">
